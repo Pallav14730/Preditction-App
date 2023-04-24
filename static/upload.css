@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(37, 49, 109);
+    padding: 10px;
+
+    
+    padding-left: 72%; 
+}
+.home h1{
+    font-size: 25px;
+    padding-right: 25px;
+    color: white;
+    cursor: pointer;
+  
+}
+
+.login{
+    padding-right: 50px; 
+   font-size: 25px;
+   padding-right: 20px;
+   color: white;
+   cursor: pointer;
+}
+.upload h1{
+   background-color: blueviolet;
+   padding-right: 30px; 
+   padding-left: 30px;
+   font-size: 25px;
+   padding-right: 20px;
+   color: white;
+   cursor: pointer;
+}
+.navbar a {
+    text-decoration: none;
+}
+
+.bod{
+    text-align: center;
+}
+.form{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.btn{
+    border: 1px solid green;
+    color: green;
+    margin-top: 50px;
+    padding: 5px 32px;
+    font-size: 16px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+.bt{
+    text-align: center;
+}
+
+.btn-1{
+    border: 1px solid #472183;
+    color: #472183;
+    margin-top: 50px;
+    padding: 5px 32px;
+    font-size: 16px;
+    cursor:pointer;
+}
+.btn-1:hover{
+    background-color: #472183;
+    color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+    .navbar{
+        display: flex;
+        padding-left: 36px;
+    }
+}

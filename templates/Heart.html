@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heart Disease Prediction</title>
+    <link rel="stylesheet" href="static/Heart.css" />
+    <link rel="icon" href="static/images/img8.png" />
+  </head>
+  <body>
+    <div>
+      <div class="main">
+        <div class="head">
+          <h1>Disease Prediction System</h1>
+        </div>
+
+        <div class="Nav">
+          <div>
+            <a style="text-decoration: none" href="{{url_for('navbar')}}">
+              <h4 class="home">Home</h4>
+            </a>
+          </div>
+
+          <div>
+            <a style="text-decoration: none" href="{{url_for('about')}}">
+              <h4 class="about">About</h4>
+            </a>
+          </div>
+
+        
+        </div>
+      </div>
+
+      <div class="about2">
+        <h1>HEART DISEASE PREDICTION</h1>
+      </div>
+
+      <div class="disease">
+        <div class="check">
+          <h2>CHECK YOUR HEART DISEASE</h2>
+        </div>
+
+        <form action="/result2" method="post" class='form123'>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Age</label>
+            </div>
+            <input required="required" type="number" name="age" placeholder='Enter Age' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Gender</label>
+            </div>
+            <input required="required" type="number" name="sex" placeholder='Enter Gender' />
+          </div>
+
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Chest Pain Type</label>
+            </div>
+            <input required="required" type="number" name="cp" placeholder="Enter Chest Pain Type" />
+          </div>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">TRESTBPS</label>
+            </div>
+            <input required="required" type="number" name="trestbps" placeholder='Enter TrestBps' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Cholestrol</label>
+            </div>
+            <input required="required" type="number" name="chol" placeholder='Enter Cholestrol' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Fasting Blood Sugar</label>
+            </div>
+            <input required="required" type="number" name="fbs" placeholder='Enter fasting blood sugar' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Resting electrocardiographic</label>
+            </div>
+            <input required="required" type="number" name="restecg" placeholder='Enter Restecg' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Thalach</label>
+            </div>
+            <input required="required" type="number" name="thalach" placeholder='Enter Thalach' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Exang</label>
+            </div>
+            <input required="required" type="number" name="exang" placeholder='Enter Exang' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">OldPeak</label>
+            </div>
+            <input required="required" type="number" name="oldpeak" placeholder='Enter Oldpeak' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Slope</label>
+            </div>
+            <input required="required" type="number" name="slope" placeholder='Enter Slope' />
+          </div>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Ca</label>
+            </div>
+            <input required="required" type="number" name="ca" placeholder='Enter CA' />
+          </div>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Thal (maximum heart rate)</label>
+            </div>
+            <input required="required" type="number" name="thal" placeholder='Enter Thal' />
+          </div>
+          <button class="btn-4">CHECK AND SHOW RESULT</button>
+
+          
+
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

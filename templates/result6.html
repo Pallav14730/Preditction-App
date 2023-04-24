@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/result4.css" />
+    <link rel="icon" href="static/images/img8.png" />
+
+    <title>Kidney Disease</title>
+  </head>
+  <body>
+    <div>
+      <div class="main">
+        <div class="head">
+          <h1>Disease Prediction System</h1>
+        </div>
+
+        <div class="Nav">
+          <div>
+            <a style="text-decoration: none" href="{{url_for('navbar')}}">
+              <h4 class="home">Home</h4>
+            </a>
+          </div>
+
+          <div>
+            <a style="text-decoration: none" href="{{url_for('about')}}">
+              <h4 class="about">About</h4>
+            </a>
+          </div>
+
+       
+        </div>
+      </div>
+
+      <div class="about2">
+        <h1>Kidney Disease PREDICTION</h1>
+      </div>
+
+      <div class="disease">
+        <div class="check">
+          <h2>YOUR KIDNEY DISEASE PREDICTION RESULT</h2>
+        </div>
+        <h1 class="dia">You are not suffered from Kidney Disease</h1>
+
+        <div class="dat">
+          <div>
+            <table>
+              <tr>
+                <th>Label</th>
+                <th>Value</th>
+              </tr>
+              <tr>
+                <td>BP</td>
+                <td>{{bp}}</td>
+              </tr>
+              <tr>
+                <td>SG</td>
+                <td>{{sg}}</td>
+              </tr>
+              <tr>
+                <td>AL</td>
+                <td>{{al}}</td>
+              </tr>
+              <tr>
+                <td>su</td>
+                <td>{{su}}</td>
+              </tr>
+              <tr>
+                <td> RBC</td>
+                <td>{{rbc}}</td>
+              </tr>
+              <tr>
+                <td>PC</td>
+                <td>{{pc}}</td>
+              </tr>
+              <tr>
+                <td>PCC</td>
+                <td>{{pcc}}</td>
+              </tr>
+              <tr>
+                <td>BA</td>
+                <td>{{ba}}</td>
+              </tr>
+              <tr>
+                <td>BGR</td>
+                <td>{{bgr}}</td>
+              </tr>
+              <tr>
+                <td>BU</td>
+                <td>{{bu}}</td>
+              </tr>
+              <tr>
+                <td>SC</td>
+                <td>{{sc}}</td>
+              </tr>
+              <tr>
+                <td>SOD</td>
+                <td>{{sod}}</td>
+              </tr>
+              <tr>
+                <td>POT</td>
+                <td>{{pot}}</td>
+              </tr>
+              <tr>
+                <td>HEMO</td>
+                <td>{{hemo}}</td>
+              </tr>
+              <tr>
+                <td>PCV</td>
+                <td>{{pcv}}</td>
+              </tr>
+              <tr>
+                <td>WC</td>
+                <td>{{wc}}</td>
+              </tr>
+              <tr>
+                <td>RC</td>
+                <td>{{rc}}</td>
+              </tr>
+              <tr>
+                <td>HTN</td>
+                <td>{{htn}}</td>
+              </tr>
+              <tr>
+                <td>dm</td>
+                <td>{{dm}}</td>
+              </tr>
+              <tr>
+                <td>CAD</td>
+                <td>{{cad}}</td>
+              </tr>
+              <tr>
+                <td>APPET</td>
+                <td>{{appet}}</td>
+              </tr>
+              <tr>
+                <td>PE</td>
+                <td>{{pe}}</td>
+              </tr>
+              <tr>
+                <td>ANE</td>
+                <td>{{ane}}</td>
+              </tr>
+
+            </table>
+          </div>
+          <img src="static/images/kidney.jpeg" class='img' width="400" height="700" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

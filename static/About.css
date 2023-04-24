@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    font-family: system-ui;
+    padding: 0;
+  }
+@media screen and (max-width: 600px) {
+    body{
+      overflow-x: hidden;
+    }
+  
+}
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 40px 50px -50px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+  }
+  .head{
+    font-size: 15px;
+    color: rgb(215, 110, 110);
+    /* color: #EA5455; */
+    padding-left: 10px;
+  }
+  @media screen and (max-width: 600px) {
+    .head{
+      font-size: 8px;
+    }
+    
+  }
+  .Nav{
+    display: flex;
+    cursor: pointer;
+  }
+  .home{
+    margin: 0 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .home{
+      font-size: 15px;
+    }
+    
+  }
+  .home:hover{
+    color: black;
+    
+  }
+  .about{
+    margin: 0 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .about{
+      font-size: 15px;
+    }
+    
+  }
+  .about:hover{
+    color: black;
+  }
+  .login{
+    margin: 0 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+  }
+  .login:hover{
+    color: black;
+  }
+  .about2{
+    padding: 0px;
+    margin-top: -12px;
+    background-color: rgb(215, 110, 110);
+  }
+  .about2 h1{
+    font-size: 20px;
+    color:white;
+    padding: 20px;
+    padding-left: 20px;
+  }
+.Heart{
+  display: flex;
+  padding: 30px;
+}
+@media screen and (max-width: 600px) {
+  .Heart{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+}
+.data1{
+  padding: 10px;
+  font-size: 20px;
+  color: gray;
+  text-align: justify;
+  margin-top: -40px;
+}
+.Heart button{
+  background-color: rgb(215, 110, 110);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}

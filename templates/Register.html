@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disease Prediction</title>
+    <link rel="stylesheet" href="static/register.css" />
+    <link rel='icon' href="static/images/img8.png" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="head">
+        <h1>Disease Prediction System</h1>
+      </div>
+
+      <div class="Nav">
+        <div>
+          <a style="text-decoration: none" href="{{url_for('navbar')}}">
+            <h4 class="home">Home</h4>
+          </a>
+        </div>
+
+        <div>
+          <a style="text-decoration: none" href="{{url_for('about')}}">
+            <h4 class="about">About</h4>
+          </a>
+        </div>
+
+        <div>
+          <a style="text-decoration: none" href="{{url_for('register')}}">
+            <h4 class="login">Login</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="about2">
+      <h1>Register</h1>
+    </div>
+
+      <div class="Form">
+        <div class="head">
+          <h1>Login</h1>
+        </div>
+        <div class="fdata">
+          <form action="/login" method="post">
+            <div>
+              <input type="email" placeholder="Email" name="text" />
+            </div>
+            <div>
+              <input type="password" placeholder="Password" name="password" />
+            </div>
+            <div>
+              <button type="submit">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

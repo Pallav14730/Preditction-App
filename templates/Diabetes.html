@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diabetes Prediction</title>
+    <link rel="stylesheet" href="static/heart.css" />
+    <link rel="icon" href="static/images/img8.png" />
+  </head>
+  <body>
+    <div>
+      <div class="main">
+        <div class="head">
+          <h1>Disease Prediction System</h1>
+        </div>
+
+        <div class="Nav">
+          <div>
+            <a style="text-decoration: none" href="{{url_for('navbar')}}">
+              <h4 class="home">Home</h4>
+            </a>
+          </div>
+
+          <div>
+            <a style="text-decoration: none" href="{{url_for('about')}}">
+              <h4 class="about">About</h4>
+            </a>
+          </div>
+
+       
+        </div>
+      </div>
+
+      <div class="about2">
+        <h1>DIABETES PREDICTION</h1>
+      </div>
+
+      <div class="disease">
+        <div class="check">
+          <h2>CHECK YOUR DIABETES</h2>
+        </div>
+
+        <form action="/result" method="post">
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">PREGNANCIES</label>
+            </div>
+            <input required="required" type="number" name="Pregnancies" placeholder='Enter Pregnancies' />
+          </div>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">GLUCOSE</label>
+            </div>
+            <input required="required" type="number" name="Glucose" placeholder='Enter Glucose' />
+          </div>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">BLOOD PRESSURE</label>
+            </div>
+            <input required="required" type="number" name="BloodPressure" placeholder='Enter BloodPressure' />
+          </div>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">SKIN THICKNESS</label>
+            </div>
+            <input required="required" type="number" name="SkinThickness" placeholder='Enter SkinThickness' />
+          </div>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">INSULIN</label>
+            </div>
+            <input  required="required" type="number" name="Insulin" placeholder='Enter Insulin' />
+          </div>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">BMI</label>
+            </div>
+            <input  required="required" type="number" name="BMI" placeholder='Enter BMI' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">DiabetesPedigreeFunction</label>
+            </div>
+            <input  required="required" type="number" name="DiabetesPedigreeFunction" placeholder='Enter DiabetesPedigreeFunction' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">AGE</label>
+            </div>
+            <input  required="required" type="number" name="Age" placeholder='Enter Age' />
+          </div>
+
+
+          <button class="btn-4">CHECK AND SHOW RESULT</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

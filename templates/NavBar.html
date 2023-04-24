@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disease Prediction</title>
+    <link rel="stylesheet" href="static/NavBar.css" />
+    <link rel="icon" href="static/images/img8.png" />
+  </head>
+
+  <body>
+    <div>
+      <div class="main">
+        <div class="head">
+          <h1>Disease Prediction System</h1>
+        </div>
+
+        <div class="Nav">
+          <div>
+            <a style="text-decoration: none" href="{{url_for('navbar')}}">
+              <h4 class="home">Home</h4>
+            </a>
+          </div>
+
+          <div>
+            <a style="text-decoration: none" href="{{url_for('about')}}">
+              <h4 class="about">About</h4>
+            </a>
+          </div>
+
+        
+        </div>
+      </div>
+
+
+
+      
+
+      <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="static/images/img_101.jpeg">
+        <img class="mySlides" src="static/images/dibetes-dis.png">
+        <img class="mySlides" src="static/images/kidney-dis.jpeg" >
+      </div>
+
+
+
+
+
+    <div class='sub-head'>
+      <h2>Why use MedicalPoint</h2>
+    </div>
+  
+
+    <div class='sub-head2'>
+     <div class='cart-1'>
+        <img src="static/images/motivation.png" />
+        <h3>Effective</h3>
+        <p>Faster and more <span>effective result</span></p>
+     </div>
+     <div class='cart-1'>
+      <img src="static/images/alarm.png" />
+      <h3>Save Time</h3>
+      <p>No wait time, no traffic, no waiting</p>
+      <p>rooms</p>
+   </div>
+   <div class='cart-1'>
+    <img src="static/images/save-money.png" />
+    <h3>Save Money</h3>
+    <p>It's free!, no charges</p>
+ </div>
+    </div>
+
+
+
+
+
+      <div class="main-card">
+        
+        <div class="card1">
+          <img src="static/images/heart.jpeg" />
+          <div class="head2">
+            <h2>Heart Disease Prediction</h2>
+          </div>
+          <div>
+            <a href="{{url_for('Heart')}}">
+              <button class="btn1">Check here...</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card2">
+          <img src="static/images/kidney.jpeg" />
+          <div class="head2">
+            <h2>Kidney Disease Prediction</h2>
+          </div>
+          <div>
+            <a href="{{url_for('Kidney')}}">
+              <button class="btn1">Check here...</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card3">
+          <img src="static/images/lungs.jpeg" />
+          <div class="head2">
+            <h2>Diabetes Prediction</h2>
+          </div>
+          <div>
+            <a href="{{url_for('Diabetes')}}">
+              <button class="btn1">Check here...</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <footer>
+      <div class="footer">
+        <div class="contain">
+        <div class="col">
+          <h2>Project Links</h2>
+          <ul>
+            <a href="{{url_for('navbar')}}"><li>Home</li></a>
+            <a href="{{url_for('about')}}"><li>About us</li></a>
+            <li>Login</li>
+            <li>SignUp</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2>Modules</h2>
+          <ul>
+            <a href="{{url_for('aboutheartdisease')}}"><li>Heart Disease Module</li><a>
+            <a href="{{url_for('aboutkidneydisease')}}" ><li>Kidney Disease</li></a>
+            <a href="{{url_for('aboutdiabetes')}}"><li>Diabetes Module</li></a>
+          </ul>
+        </div>
+        <div class="col">
+          <h2>About Project</h2>
+          <p>HealthCare Industry has huge amount of data that contains hidden information.This information supports decision making process on related areas.</p>
+        </div>
+        
+     
+      <div class="clearfix"></div>
+      </div>
+      </div>
+      </footer>
+
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 4000); 
+        }
+        </script>
+   
+
+  </body>
+</html>

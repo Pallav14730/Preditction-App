@@ -1,0 +1,241 @@
+body{
+    margin:0;
+    font-family: system-ui;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  @media screen and (max-width: 600px) {
+    body{
+      overflow-x: hidden;
+    }
+  }
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 40px 50px -50px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+  }
+  .head{
+    font-size: 15px;
+    color: rgb(215, 110, 110);
+    padding-left: 10px;
+  }
+  @media screen and (max-width: 600px) {
+    .head{
+      font-size: 8px;
+    }
+  }
+  .Nav{
+    display: flex;
+    cursor: pointer;
+  }
+  .home{
+    margin: 0 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .home{
+      font-size: 15px;
+    }
+  }
+  .home:hover{
+    color: black;
+    
+  }
+  .about{
+    margin: 0 30px;
+    /* text-decoration: none; */
+    color: gray;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .about{
+      font-size: 15px;
+    }
+  }
+  .about:hover{
+    color: black;
+  }
+  .login{
+    margin: 0 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+  }
+  .login:hover{
+    color: black;
+  }
+  .main-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 9%;  
+  }
+  @media screen and (max-width: 600px) {
+    .main-card{
+      display: block;
+      margin-top: 5px;
+    }
+  }
+
+
+  .card1{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .card1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .card2{
+    text-align: center;
+    padding: 10px;
+    padding-top: 33px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .card2:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  
+  .card3{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .card3:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .head2{
+    font-size: 15px;
+    color: gray;
+  }
+  .btn1{
+    background-color: rgb(215, 110, 110);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+
+  .footer {
+    width: 100%;
+    background-color: rgb(215, 110, 110);
+  }
+  @media screen and (max-width: 600px)
+  {
+    .footer{
+      width: 100%;
+      display: block;
+    }
+    
+  }
+  .contain{
+    /* padding-left: 300px; */
+    justify-content: center;
+    /* text-decoration: none; */
+
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+  .footer .col h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 2px 0;
+    color: #FF0063;
+    text-transform: uppercase;
+  }
+  .footer .col p{
+    color: white;
+    padding: 10px 0px;
+    text-align: left;
+  }
+  .footer .col ul {
+    
+    padding: 0;
+  }
+  .footer .col ul:hover{
+
+    text-decoration-color:white;
+
+  }
+  .footer .col ul li {
+    color: white;
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+  .footer .col ul a{
+    text-decoration: none;
+  }
+  .address ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    cursor: pointer;
+    color: lightgray;
+    font-weight: bold;
+  }
+  .clearfix {
+    clear: both;
+  }
+  
+.sub-head{
+  text-align: center;
+  color: rgb(215, 110, 110);
+}
+.sub-head2 .cart-1 img{
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  margin-top: 20px;
+  
+}
+.sub-head2{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+
+}
+.cart-1{
+  text-align: center;
+  padding: 40px;
+}
+
+.cart-1 h3{
+  color: rgb(215, 110, 110);
+}
+.cart-1 p{
+  color: gray;
+}
+.cart-2 p1{
+  color: gray;
+
+}
+.mySlides{
+  width: 1600px;
+  height: 600px;
+}
+@media screen and (max-width: 600px)  {
+  .mySlides  {
+    width: 120%;
+    height: 100%;
+  }
+  
+}

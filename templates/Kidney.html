@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kidney Disease Prediction</title>
+    <link rel="stylesheet" href="static/Heart.css" />
+    <link rel="icon" href="static/images/img8.png" />
+  </head>
+  <body>
+    <div>
+      <div class="main">
+        <div class="head">
+          <h1>Disease Prediction System</h1>
+        </div>
+
+        <div class="Nav">
+          <div>
+            <a style="text-decoration: none" href="{{url_for('navbar')}}">
+              <h4 class="home">Home</h4>
+            </a>
+          </div>
+
+          <div>
+            <a style="text-decoration: none" href="{{url_for('about')}}">
+              <h4 class="about">About</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="about2">
+        <h1>KIDNEY DISEASE PREDICTION</h1>
+      </div>
+
+      <div class="disease">
+        <div class="check">
+          <h2>CHECK YOUR KIDNEY DISEASE</h2>
+        </div>
+
+        <form action="/result5" method="post">
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Age</label>
+            </div>
+            <input required="required" type="number" name="age" placeholder='Enter Age' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Blood Pressure</label>
+            </div>
+            <input required="required" type="number" name="bp" placeholder='Enter Blood Pressure' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">SG</label>
+            </div>
+            <input required="required" type="number" name="sg" placeholder='Enter SG' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Aluminium toxicity</label>
+            </div>
+            <input required="required" type="number" name="al" placeholder='Enter Aluminium toxicity' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Sulfonylureas</label>
+            </div>
+            <input required="required" type="number" name="su" placeholder='Enter Sulfonylureas' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Red Blood Cell</label>
+            </div>
+            <input required="required" type="number" name="rbc" placeholder='Enter RED BLOOD CELL' />
+          </div>
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">PC</label>
+            </div>
+            <input required="required" type="number" name="pc" placeholder='Enter PC' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">pheochromocytoma</label>
+            </div>
+            <input required="required" type="number" name="pcc" placeholder='Enter pheochromocytoma' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">BA</label>
+            </div>
+            <input required="required" type="number" name="ba" placeholder='Enter BA' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">BGR</label>
+            </div>
+            <input required="required" type="number" name="bgr" placeholder='Enter BGR' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">BU</label>
+            </div>
+            <input required="required" type="number" name="bu" placeholder='Enter BU' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">SC</label>
+            </div>
+            <input required="required" type="number" name="sc" placeholder='Enter SC' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">SOD</label>
+            </div>
+            <input required="required" type="number" name="sod" placeholder='Enter SOD' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">POT</label>
+            </div>
+            <input required="required" type="number" name="pot" placeholder='Enter POT' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Hemoglobin</label>
+            </div>
+            <input required="required" type="number" name="hemo" placeholder='Enter Hemoglobin' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">PCV</label>
+            </div>
+            <input required="required" type="number" name="pcv" placeholder='Enter PCV' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">WC</label>
+            </div>
+            <input required="required" type="number" name="wc" placeholder='Enter WC' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">RC</label>
+            </div>
+            <input required="required" type="number" name="rc" placeholder='Enter RC' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">HyperTension</label>
+            </div>
+            <input required="required" type="number" name="htn" placeholder='Enter HyperTension' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">DM</label>
+            </div>
+            <input required="required" type="number" name="dm" placeholder='Enter DM' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">CAD</label>
+            </div>
+            <input required="required" type="number" name="cad" placeholder='Enter CAD' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">Appet</label>
+            </div>
+            <input required="required" type="number" name="appet" placeholder='Enter Appet' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">PE</label>
+            </div>
+            <input required="required" type="number" name="pe" placeholder='Enter PE' />
+          </div>
+
+
+          <div class='dis'>
+            <div class='age'>
+            <label for="age">ANE</label>
+            </div>
+            <input required="required" type="number" name="ane" placeholder='Enter ANE' />
+          </div>
+
+
+          <button class="btn-4">CHECK AND SHOW RESULT</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

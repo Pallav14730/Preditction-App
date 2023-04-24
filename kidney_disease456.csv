@@ -1,0 +1,6 @@
+id,age,bp,sg,al,su,rbc,pc,pcc,ba,bgr,bu,sc,sod,pot,hemo,pcv,wc,rc,htn,dm,cad,appet,pe,ane,classification
+0,48.0,80.0,1.02,1.0,0.0,normal,normal,notpresent,notpresent,121.0,36.0,1.2,111,2,15.4,44,7800,5.2,yes,yes,no,good,no,no,ckd
+1,7.0,50.0,1.02,4.0,0.0,Abnormal,normal,notpresent,notpresent,100,18.0,0.8,121,3,11.3,38,6000,3.2,no,no,no,good,no,no,ckd
+2,62.0,80.0,1.01,2.0,3.0,normal,normal,notpresent,notpresent,423.0,53.0,1.8,131,4,9.6,31,7500,4.3,no,yes,no,poor,no,yes,ckd
+3,48.0,70.0,1.005,4.0,0.0,normal,abnormal,present,notpresent,117.0,56.0,3.8,111.0,2.5,11.2,32,6700,3.9,yes,no,no,poor,yes,yes,ckd
+5,60.0,90.0,1.015,3.0,0.0,normal,Normal,notpresent,notpresent,74.0,25.0,1.1,142.0,3.2,12.2,39,7800,4.4,yes,yes,no,good,yes,no,ckd

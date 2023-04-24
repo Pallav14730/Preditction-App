@@ -1,0 +1,127 @@
+body{
+    margin:0;
+    font-family: system-ui;
+    padding: 0;
+  }
+  @media screen and (max-width: 600px) {
+    body{
+      overflow-x: hidden;
+    }
+    
+  }
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 40px 50px -50px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+  }
+  .head{
+    font-size: 15px;
+    color: rgb(215, 110, 110);
+    /* color: #EA5455; */
+    padding-left: 10px;
+  }
+  @media screen and (max-width: 600px) {
+    .head{
+      font-size: 8px;
+    }
+    
+  }
+  .Nav{
+    display: flex;
+    cursor: pointer;
+  }
+  .home{
+    margin: 0 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .home{
+      font-size: 15px;
+    }
+    
+  }
+  .home:hover{
+    color: black;
+    
+  }
+  .about{
+    margin: 0 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .about{
+      font-size: 15px;
+    }
+    
+  }
+  .about:hover{
+    color: black;
+  }
+  .login{
+    margin: 0 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+  }
+  .login:hover{
+    color: black;
+  }
+  .about2{
+    padding: 0px;
+    margin-top: -12px;
+    background-color: rgb(215, 110, 110);
+  }
+  .about2 h1{
+    font-size: 20px;
+    color:white;
+    padding: 20px;
+    padding-left: 20px;
+  }
+  .disease{
+    text-align: center;
+    
+    padding-left: 20%;
+    padding-right:20%;
+    margin-top: 5%;
+    
+}
+.check{
+    background-color: rgb(215, 110, 110);
+}
+.check h2{
+    font-size: 20px;
+    color:white;
+    padding: 20px;
+    
+}
+.dia{
+    color: green;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 10%;
+  }
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+  }
+   th {
+    border: 1px solid #dddddd;
+    background-color: rgb(215, 110, 110);
+    text-align: left;
+    color: white;
+    padding: 20px;
+  }
+  .dat{
+    display: flex;
+    
+  }

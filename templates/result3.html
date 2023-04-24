@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/result3.css" />
+    <link rel="icon" href="static/images/img8.png" />
+
+    
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <div>
+        <div class="main">
+            <div class="head">
+              <h1>Disease Prediction System</h1>
+            </div>
+      
+            <div class="Nav">
+              <div>
+                <a style="text-decoration: none" href="{{url_for('navbar')}}">
+                  <h4 class="home">Home</h4>
+                </a>
+              </div>
+      
+              <div>
+                <a style="text-decoration: none" href="{{url_for('about')}}">
+                  <h4 class="about">About</h4>
+                </a>
+              </div>
+      
+             
+            </div>
+          </div>
+
+          <div class="about2">
+            <h1>Heart Disease PREDICTION</h1>
+          </div>
+
+          <div class='disease'>
+
+            <div class='check'>
+              <h2>YOUR HEART DISEASE PREDICTION RESULT</h2>
+            </div>
+            <h1 class='dia'>You are suffered from Heart Disease</h1>
+
+            <div class=dat>
+              <div>
+                <table>
+                  <tr>
+                    <th>Label</th>
+                    <th>Value</th>
+                  </tr>
+                  <tr>
+                    <td>Age</td>
+                    <td>{{age}}</td>
+                  </tr>
+                  <tr>
+                    <td>Chest Pain Type</td>
+                    <td>{{cp}}</td>
+                  </tr>
+                  <tr>
+                    <td>TRESTBPS</td>
+                    <td>{{trestbps}}</td>
+                  </tr>
+                  <tr>
+                    <td>CHOLESTROL</td>
+                    <td>{{chol}}</td>
+                  </tr>
+                  <tr>
+                    <td>Fasting Blood Sugar</td>
+                    <td>{{fbs}}</td>
+                  </tr>
+                  <tr>
+                    <td>Restecg</td>
+                    <td>{{restecg}}</td>
+                  </tr>
+                  <tr>
+                    <td>Thalach</td>
+                    <td>{{thalach}}</td>
+                  </tr>
+                  <tr>
+                    <td>Exang</td>
+                    <td>{{exang}}</td>
+                  </tr>
+                  <tr>
+                    <td>Oldpeak</td>
+                    <td>{{oldpeak}}</td>
+                  </tr>
+                  <tr>
+                    <td>Slope</td>
+                    <td>{{slope}}</td>
+                  </tr>
+                  <tr>
+                    <td>Ca</td>
+                    <td>{{ca}}</td>
+                  </tr>
+                  <tr>
+                    <td>Thal</td>
+                    <td>{{Thal}}</td>
+                  </tr>
+
+                </table>
+              </div>
+        <img src="static/images/heart2.jpeg" class='img' width="400" height="400" />
+
+            </div>
+          </div>
+      
+      
+    </div>
+</body>
+</html>

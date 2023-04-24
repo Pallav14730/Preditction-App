@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disease Prediction</title>
+    <link rel="stylesheet" href="static/prediction.css" />
+    <link rel="icon" href="static/images/img8.png" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <a href="{{url_for('navbar')}}" class="home">
+          <h1>Home</h1>
+        </a>
+        <a href="{{url_for('register')}}">
+          <h1 class="login">Login</h1>
+        </a>
+
+        <a href="{{url_for('prediction')}}" class="prediction">
+          <h1>Prediction</h1>
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="card-1">
+          <img src="static/images/heart.jpeg" />
+          <h1>Heart Disease Prediction</h1>
+          <a href="{{url_for('Heart')}}">
+          <button class="btn-4" onClick="openForm()">Check here....</button>
+          </a>
+        </div>
+
+        <div class="card-2">
+          <img src="static/images/lungs.jpeg" />
+          <h1>Diabetes Disease Prediction</h1>
+          <a href="{{url_for('Diabetes')}}" >
+          <button class="btn-4">Check here....</button>
+          </a>
+        </div>
+
+        <div class="card-3">
+          <img src="static/images/kidney.jpeg" />
+          <h1>Kidney Disease Prediction</h1>
+          <a href="{{url_for('Kidney')}}" >
+          <button class="btn-4">Check here....</button>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </body>
+</html>
