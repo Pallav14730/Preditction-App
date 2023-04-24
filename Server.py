@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def navbar():
-    return render_template("NavBar.html")
+    return render_template("index.html")
 
 @app.route('/about')
 def about():
