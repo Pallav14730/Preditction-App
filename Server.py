@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 import matplotlib.pyplot as plt
 import numpy as np
-import pymongo
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -14,6 +13,7 @@ app = Flask(__name__)
 @app.route('/')
 def navbar():
     return render_template("index.html")
+
 
 @app.route('/about')
 def about():
@@ -406,3 +406,6 @@ def aboutdiabetes():
 if __name__ == "__main__":
     app.run(debug=True)
     # app.run(host="0.0.0.0", port=8080)
+    #  http_server = WSGIServer(("127.0.0.1", 8080), app)
+    #  http_server.serve_forever()
+
