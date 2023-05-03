@@ -1,19 +1,15 @@
 {
-  "builds": [
+  "builds":[
     {
-      "src": "hello.py",
-      "use": "@vercel/python",
-      "config": {
-            "maxLambdaSize": "15mb",
-            "runtime": "python3.11"
-      }
+      "src": "server.py",
+      "use": "@vercel/python"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "hello.py"
+      "src":"/(.*)",
+      "dest": "server.py"
     }
+
   ]
 }
-
